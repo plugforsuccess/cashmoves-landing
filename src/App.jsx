@@ -225,7 +225,7 @@ $25<span className="text-2xl text-gray-400">/mo</span>
 <PricingFeature text="Premium tools & indicators" />
 </ul>
 <a
-href={WHOP_LINK}
+href="https://whop.com/cashmoves-io"
 target="_blank"
 rel="noopener noreferrer"
 className="block w-full px-6 py-4 bg-gradient-to-r from-green-500 to-emerald-500 text-black text-center font-bold rounded-lg hover:shadow-2xl hover:shadow-green-500/50 transition-all transform hover:scale-105"
