@@ -1,6 +1,7 @@
 // App.jsx
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import HomePage from './pages/HomePage'
 import DisclaimerPage from './pages/DisclaimerPage'
 import TermsPage from './pages/TermsPage'

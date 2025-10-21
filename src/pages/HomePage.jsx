@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, TrendingUp, Users, Lock, BarChart3, Zap, Shield, ArrowRight, Check } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function App() {
 const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -263,17 +264,17 @@ Join Discord Free
                 <span className="text-lg font-bold text-white">Cash<span className="text-green-400">Moves</span></span>
     </div>
     <div className="flex gap-6 text-sm">
-        <a href="/disclaimer" className="text-gray-400 hover:text-green-400 transition-all duration-300 hover:scale-110">Disclaimer</a>
-        <a href="/terms" className="text-gray-400 hover:text-green-400 transition-all duration-300 hover:scale-110">Terms & Conditions</a>
-        <a href="/privacy" className="text-gray-400 hover:text-green-400 transition-all duration-300 hover:scale-110">Privacy Policy</a>
+        <Link to="/disclaimer" className="text-gray-400 hover:text-green-400 transition-all duration-300 hover:scale-110">Disclaimer</Link>
+        <Link to="/terms" className="text-gray-400 hover:text-green-400 transition-all duration-300 hover:scale-110">Terms & Conditions</Link>
+        <Link to="/privacy" className="text-gray-400 hover:text-green-400 transition-all duration-300 hover:scale-110">Privacy Policy</Link>
 
     </div>
 
-<p className="text-gray-500 text-sm">
-© 2025 CashMoves Ltd. All rights reserved.
-</p>
-</div>
-</div>
+    <p className="text-gray-500 text-sm">
+    © 2025 CashMoves Ltd. All rights reserved.
+    </p>
+    </div>
+    </div>
 </footer>
 </div>
 );
