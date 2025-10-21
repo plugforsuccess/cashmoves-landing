@@ -212,7 +212,7 @@ MOST POPULAR
 </div>
 <div className="text-center mb-8">
 <div className="text-6xl font-bold text-white mb-2">
-$99<span className="text-2xl text-gray-400">/mo</span>
+$25<span className="text-2xl text-gray-400">/mo</span>
 </div>
 <p className="text-green-400 text-sm font-medium">Cancel anytime</p>
 </div>
